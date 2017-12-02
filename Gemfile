@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.3'
 
+gem "authem"
 gem 'adequate_exposure'
 gem 'bcrypt-ruby', require: 'bcrypt'
 gem 'bourbon', "~> 4.2.0"

@@ -1,0 +1,18 @@
+#registration
+  = render "pages/logo"
+  .container
+    .sub-container.left
+      %h1 Sign Up
+      = form_for user do |f|
+        %fieldset
+          %dd= f.text_field :email, placeholder: "Email"
+
+          %dd= f.password_field :password, placeholder: "Password"
+
+          %dd= f.password_field :password_confirmation, placeholder: "Password Confirmation"
+
+        %fieldset.actions
+          = f.submit 'Sign Up'
+    .sub-container.right
+      %h1 What is the carpool?
+= render 'pages/footer'

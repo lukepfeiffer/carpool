@@ -1,0 +1,34 @@
+@import "bourbon";
+@import "neat";
+@import "base/base";
+@import 'footer';
+@import 'static_pages';
+
+body#main{
+  margin: 0;
+  background-color: #F7F6F3;
+}
+
+#history{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#categories{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.super-container, #contact, #registration, #products, #about{
+  .logo{
+    img{
+      width: 15%;
+    }
+  }
+}
+
+.hidden_form{
+  display: none;
+}
